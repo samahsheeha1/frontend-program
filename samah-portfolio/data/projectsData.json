@@ -1,0 +1,32 @@
+[
+    {
+        "project_id": 1,
+        "project_name": "Automated Milkshake Machine",
+        "short_description": "Arduino-controlled milkshake machine with mobile app interface",
+        "long_description": "A smart milkshake-making machine controlled by Arduino Mega and NodeMCU. It allows users to select ingredients via a mobile app or keypad, and prepares milkshakes with an automated dispensing, blending, and cup-serving system.",
+        "card_image": "images/milkshake-machine.jpg",
+        "spotlight_image": "images/milkshake-machine-large.jpg",
+        "url": "#",
+        "technologies": ["Arduino", "NodeMCU", "Stepper Motors", "Relay Modules"]
+    },
+    {
+        "project_id": 2,
+        "project_name": "Sakani Student Housing Platform",
+        "short_description": "Web and mobile platform for university housing management",
+        "long_description": "A web and mobile system that allows students to apply for university housing, select rooms, track application status, and communicate with admins. Admins can manage room allocations, messages, and complaints.",
+        "card_image": "images/housing-platform.jpg",
+        "spotlight_image": "images/housing-platform-large.jpg",
+        "url": "#",
+        "technologies": ["React", "Node.js", "MongoDB", "Flutter"]
+    },
+    {
+        "project_id": 3,
+        "project_name": "Humanitarian Aid Management System",
+        "short_description": "Platform for managing aid distribution for NGOs",
+        "long_description": "An aid distribution platform for managing requests and donations for food, clothing, and medicine. Built to streamline NGO workflows and ensure fair delivery using real-time status tracking and notifications.",
+        "card_image": "images/aid-system.jpg",
+        "spotlight_image": "images/aid-system-large.jpg",
+        "url": "#",
+        "technologies": ["Laravel", "MySQL", "Vue.js", "Firebase"]
+    }
+]

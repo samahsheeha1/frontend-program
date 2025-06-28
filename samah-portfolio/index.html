@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samah Sheeha - Engineering Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Samah Sheeha's Engineering Portfolio</h1>
+    </header>
+
+    <section id="aboutMe">
+    </section>
+
+    <section class="projects">
+        <h2>My Engineering Projects</h2>
+        
+        <div class="projectNavArrows">
+            <button class="arrow left-arrow">←</button>
+            <div id="projectsList" class="projectsList"></div>
+            <button class="arrow right-arrow">→</button>
+        </div>
+
+        <div id="projectSpotlight">
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Technical Skills</h2>
+        <div id="skillsList">
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="email" placeholder="Your Email">
+            <div id="emailError" class="error"></div>
+            
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <div id="messageError" class="error"></div>
+            <div id="charCount">300 characters remaining</div>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
